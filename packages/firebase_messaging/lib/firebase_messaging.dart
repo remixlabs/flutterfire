@@ -107,6 +107,7 @@ class FirebaseMessaging {
     MessageHandler onLaunch,
     MessageHandler onResume,
   }) {
+    print('############# private firebase_messaging');
     _onMessage = onMessage;
     _onLaunch = onLaunch;
     _onResume = onResume;
