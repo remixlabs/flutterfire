@@ -263,10 +263,8 @@ static NSObject<FlutterPluginRegistrar> *_registrar;
   // to remove all
   // notifications.
 
-  // DDA change: remove this. We don't want to clear the notifications from
-  // the notifiction center
-/*  application.applicationIconBadgeNumber = 1;*/
-/*  application.applicationIconBadgeNumber = 0;*/
+  application.applicationIconBadgeNumber = 1;
+  application.applicationIconBadgeNumber = 0;
 }
 
 - (BOOL)application:(UIApplication *)application
